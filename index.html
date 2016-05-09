@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quizzer</title>
+    <meta charset="utf-8">
+    <link href="quizzer.css" type="text/css" rel="stylesheet">
+    <script src="jquery-2.2.0.min.js"></script>
+    <script src="underscore-1.8.3.min.js"></script>
+    <script src="quizzer.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>Quizzer</h1>
+        <h2>¿Sabes tanto como creías?</h2>
+      </div>
+      <div class="countdown"><span class="time_left">12s</span></div>
+      <div class="points"><span class="points">0 points</span></div>
+    </header>
+    <div class="start">
+      <div class="card">
+        <p>¿Listo para comenzar?</p>
+        <button class="start">Comenzar</button>
+      </div>
+    </div>
+    <div class="play">
+      <div class="questions"></div>
+    </div>
+    <div class="finish card">
+      <p class="times_up">¡Se acabó el tiempo!</p>
+      <p>Has obtenido</p>
+      <p class="final_points">8 puntos</p>
+      <div class="play_again">
+        <button>Volver a jugar</button>
+      </div>
+    </div>
+  </body>
+</html>
